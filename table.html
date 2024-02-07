@@ -25,6 +25,35 @@
     tr:nth-child(even) {
       background-color: #f2f2f2;
     }
+    .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh; /* Adjust as needed */
+  }
+
+    a {
+            text-decoration: none; /* Remove underline */
+        }
+
+    .back a {
+            display: inline-block;
+            background: darkblue;
+            color: white;
+            font-size: 25px;
+            font-weight: 500;
+            padding: 12px 20px;
+            margin-top: 20px;
+            border-radius: 6px;
+            border: 5px darkblue;
+            transition: all 0.3s ease;
+            
+        }
+
+    .back a:hover {
+            background: none;
+            color: darkblue;
+        }
   </style>
 </head>
 <body>
@@ -82,6 +111,8 @@
       </tr>
     </tbody>
   </table>
+
+    <div class="back"><a href="index.html"> Previous page </a></div>
 
 </body>
 </html>
