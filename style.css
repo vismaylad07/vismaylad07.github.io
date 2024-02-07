@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+   
 }
 
 html {
@@ -605,16 +606,7 @@ section {
     width: 95%;
 }
 
-.iconbox {
-    display: flex;
-    gap: 5px;
-    align-items: center
-}
 
-.iconbox .info .head {
-    margin-right: 10px;
-    font-weight: 600;
-}
 
 /*Contact section styling*/
 
@@ -669,7 +661,7 @@ footer {
 }
 
 .contact .contact-content .column {
-    width: calc(50% - 30px);
+    white-space: nowrap;
 }
 
 .contact .contact-content .text {
@@ -680,20 +672,31 @@ footer {
 
 .contact .contact-content .left p {
     text-align: justify;
+  
 }
 
 .contact .contact-content .left .icons {
     margin: 10px 0;
 }
+.iconbox {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
 
+.iconbox .info .head {
+    margin-right: 10px;
+    font-weight: 600;
+}
 .contact .contact-content .row {
     display: flex;
-    height: 65px;
+   height: 65px;
     align-items: center;
 }
 
 .contact .contact-content .row .info {
     margin-left: 30px;
+    
 }
 
 .contact .contact-content .row i {
@@ -703,10 +706,12 @@ footer {
 
 .contact .contact-content .info .head {
     font-weight: 500;
+
 }
 
 .contact .contact-content .info .sub-title {
     color: black;
+    
 }
 
 .contact .right form .fields {
