@@ -115,7 +115,7 @@ html {
 .home {
     color: black;
     display: flex;
-    background: url("D:/portfolio/Images/profile.png") no-repeat center;
+    background: url("./Images/profile.png") no-repeat center;
     height: 100vh;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
